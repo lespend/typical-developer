@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Типичный верстальщик</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/cropped-favicon-32x32.png" sizes="32x32">
+</head>
+
+<body>
+
+    <header class="page-header">
+        <div class="container">
+            <nav class="main-navigation">
+                <a class="navigation-logotype" href="#">Типичный верстальщик</a>
+                <div class="navigation__hamburger-button-wrapper"><div class="navigation__hamburger-button"></div></div>
+                <div class="main-navigation__mobile-wrapper">
+                    <ul class="main-navigation__list">
+                        <li class="main-navigation__item">
+                            <a class="main-navigation__link" href="#">Блог</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a class="main-navigation__link" href="#">Frontend book</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a class="main-navigation__link" href="#">Обучение</a>
+                            <ul class="main-navigation__sublist main-navigation__sublist--learn">
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Базовый курс</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Продвинутый курс</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">WordPress Мастер</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Марафон Flexbox CSS</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Марафон Grid CSS</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Марафон SVG</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Супер старт</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a class="main-navigation__link" href="#">Полезности</a>
+                            <ul class="main-navigation__sublist main-navigation__sublist--useful">
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Шпаргалка Flexbox CSS</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Шпаргалка Grid CSS</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Названия классов HTML</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Шаблон HTML</a>
+                                </li>
+                                <li class="main-navigation__subitem">
+                                    <a href="#" class="main-navigation__sublink">Сборщик Gulp</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="main-navigation__search-button"><span class="visually-hidden">Поиск</span></button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-main">
+        <section class="main-intro">
+            <img class="main-logotype" src="image/MOSHED-2018-1-21-0-12-6.gif.pagespeed.ce.GJ0ouzzXGb.gif"
+                alt="Логотип: Типичный верстальщик" width="450">
+            <p class="main-intro__text">Полезный проект для верстальщиков и фронтенд-разработчиков</p>
+        </section>
+
+        <section class="main-social">
+            <div class="container">
+                <section class="social-vk">
+                    <img class="social-picture" src="image/img-vk.png" alt="Телефон с открытой на нём группой Вконтакте"
+                        width="280">
+                    <div class="social-wrapper">
+                        <h2 class="social-header">Вконтакте</h2>
+                        <p class="social-text">Место зарождения типичного верстальщика. Идеальный ресурс для новичков и
+                            профессионалов в сфере IT.</p>
+                        <ul class="social-list">
+                            <li class="social-list__item">Видео-уроки по темам</li>
+                            <li class="social-list__item">Ссылки на полезные сервисы</li>
+                            <li class="social-list__item">Советы по созданию сайтов</li>
+                            <li class="social-list__item">Вдохновляющие примеры</li>
+                            <li class="social-list__item">Немного юмора</li>
+                        </ul>
+                        <a href="#" class="social-button">Подписаться</a>
+                    </div>
+                </section>
+
+                <section class="social-tg">
+                    <div class="social-wrapper">
+                        <h2 class="social-header">Телеграм</h2>
+                        <p class="social-text">Нет-нет, это не второй ВК. Контент не дублируется. Эта площадка была
+                            создана для чтения, поэтому выдаём строго авторский контент с возможностью качать книги.</p>
+                        <ul class="social-list">
+                            <li class="social-list__item">Книги для чтения</li>
+                            <li class="social-list__item">Советы верстальщикам</li>
+                            <li class="social-list__item">Описание годных сервисов</li>
+                            <li class="social-list__item">Небольшие истории из жизни автора</li>
+                        </ul>
+                        <a href="#" class="social-button">Подписаться</a>
+                    </div>
+                    <img class="social-picture" src="image/1.jpg" alt="Телеграм канал на телефоне" width="280">
+                </section>
+
+                <section class="social-yt">
+                    <img class="social-picture" src="image/img-youtube.png" alt="Ютуб канал на телефоне" width="280">
+                    <div class="social-wrapper">
+                        <h2 class="social-header">Youtube</h2>
+                        <p class="social-text">Формат видео идеально подходит для объяснения всех тонкостей
+                            веб-разработки. К тому же, мы проводим стримы, где бесплатно делаем разбор ошибок начинающих
+                            верстальщиков.</p>
+                        <ul class="social-list">
+                            <li class="social-list__item">Полезное о веб-разработке</li>
+                            <li class="social-list__item">Техники вёрстки сайтов</li>
+                            <li class="social-list__item">Розыгрыши книг</li>
+                            <li class="social-list__item">Видео об удаленной работе и фрилансе</li>
+                        </ul>
+                        <a href="#" class="social-button">Подписаться</a>
+                    </div>
+                </section>
+
+                <section class="social-blog">
+                    <div class="social-wrapper">
+                        <h2 class="social-header">Блог</h2>
+                        <p class="social-text">Если смотреть видео — это не твоё, то почитать все самое свежее можно и в
+                            текстовом варианте.Достаточно лишь кликнуть на вкладку «блог» в шапке сайта или на кнопку
+                            ниже.</p>
+                        <ul class="social-list">
+                            <li class="social-list__item">Макеты для вёрстки</li>
+                            <li class="social-list__item">Перевод статей</li>
+                            <li class="social-list__item">Транскрибация видеороликов</li>
+                            <li class="social-list__item">Информация о графических редакторах</li>
+                        </ul>
+                        <a href="#" class="social-button">Подписаться</a>
+                    </div>
+                    <img class="social-picture" src="image/img-blog.jpg" alt="Человек пишет что-то на бумаге ручкой"
+                        width="280">
+                </section>
+            </div>
+        </section>
+
+        <section class="main-goods">
+            <div class="container">
+                <section class="main-frontend">
+                    <h2 class="main-goods__header main-frontend__header">Frontend Book — это книга?</h2>
+                    <p class="main-goods__text main-frontend__text">Не совсем. Это ежедневник для фронтендеров, в
+                        котором есть полезные развороты по теме веба.</p>
+                    <img class="main-frontend__image" src="image/шаблон-01.png" alt="Книга Frontend book" width="500">
+                    <a href="#" class="main-frontend__button">Узнать подробнее</a>
+                </section>
+
+                <section class="main-courses">
+                    <h2 class="main-goods__header main-courses__header">Стоп! И это всё?</h2>
+                    <p class="main-goods__text main-courses__text">Не только! еще мы научим тебя верстать сайты. Обрати
+                        внимание на наши курсы:</p>
+                    <div class="courses-wrapper">
+                        <div class="block-course">
+                            <h3 class="block-course__header">Супер старт</h3>
+                            <ul class="block-course__list">
+                                <li class="block-course__item">3 урока</li>
+                                <li class="block-course__item">Верстка сайта-портфолио</li>
+                                <li class="block-course__item">Подходит новичкам</li>
+                                <li class="block-course__item">Только практика</li>
+                                <li class="block-course__item">Нет теории</li>
+                                <li class="block-course__item">Нет чата</li>
+                                <li class="block-course__item">Нет сертификата</li>
+                            </ul>
+                            <a href="#" class="block-curse__button">Подробнее</a>
+                        </div>
+                        <div class="block-course">
+                            <h3 class="block-course__header">Базовый курс</h3>
+                            <ul class="block-course__list">
+                                <li class="block-course__item">Месяц обучения + 2 недели</li>
+                                <li class="block-course__item">2 сайта в портфолио Github</li>
+                                <li class="block-course__item">Верстка сайта на html/css</li>
+                                <li class="block-course__item">Подходит новичкам и тем, кто хочет систематизировать
+                                    знания</li>
+                                <li class="block-course__item">Сертификат об окончании</li>
+                                <li class="block-course__item">Общий чат со всеми выпускниками курсов</li>
+                            </ul>
+                            <a href="#" class="block-curse__button">Подробнее</a>
+                        </div>
+                        <div class="block-course">
+                            <h3 class="block-course__header">Продвинутый курс</h3>
+                            <ul class="block-course__list">
+                                <li class="block-course__item">Месяц обучения + 2 недели</li>
+                                <li class="block-course__item">2 сайта в портфолио Github</li>
+                                <li class="block-course__item">Верстка сайта с Gulp (SCSS)</li>
+                                <li class="block-course__item">Подходит профи и тем, кто перешел с базового курса</li>
+                                <li class="block-course__item">Сертификат об окончании</li>
+                                <li class="block-course__item">Общий чат со всеми выпускниками курсов</li>
+                            </ul>
+                            <a href="#" class="block-curse__button">Подробнее</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-block">
+                    <h2 class="footer-block__header">Соц.сети</h2>
+                    <ul class="footer-block__list">
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Youtube</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Вконтакте</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Телеграм</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Телеграм чат</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Инстаграм</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-block">
+                    <h2 class="footer-block__header">Курсы</h2>
+                    <ul class="footer-block__list">
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Базовый курс</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Продвинутый курс</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">WordPress мастер</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Марафон Flexbox CSS</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Марафон Grid CSS</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Марафон SVG</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Супер старт</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-block">
+                    <h2 class="footer-block__header">Полезности</h2>
+                    <ul class="footer-block__list">
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Шпаргалка Flexbox CSS</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Шпаргалка Grid CSS</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Названия классов</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Шаблон HTML</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Сборщик Gulp</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-block">
+                    <h2 class="footer-block__header footer-block__header--simple">Задать вопрос <a
+                            href="#">frontendhelp.me</a></h2>
+                    <a href="#" class="footer-block__button">Попробовать бесплатно</a>
+                    <ul class="footer-block__list">
+                        <li class="footer-block__item">ИНН 663005760277</li>
+                        <li class="footer-block__item">ОГРНИП 319665800052422</li>
+                        <li class="footer-block__item">
+                            <a href="#" class="footer-block__link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__link">Публичная оферта</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
