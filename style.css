@@ -230,6 +230,7 @@ g {
     margin-top: 170px;
     padding: 50px;
     box-sizing: border-box;
+    align-items: flex-start;
 }
 
 .social-tg,
@@ -239,6 +240,7 @@ g {
     margin-top: 50px;
     padding: 50px;
     box-sizing: border-box;
+    align-items: flex-start;
 }
 
 .social-tg .social-wrapper,
