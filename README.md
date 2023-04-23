@@ -1,8 +1,8 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/lespend/typical-developer/master/image/MOSHED-2018-1-21-0-12-6.gif.pagespeed.ce.GJ0ouzzXGb.gif" alt="Логотип сайта">
+  ![Shield](https://img.shields.io/badge/landing-page-grayf?style=for-the-badge&logo=geart&logoColor=white)
 </p>
 # :computer: Типичный верстальщик. О проекте:
-![Shield](https://img.shields.io/badge/landing-page-grayf?style=for-the-badge&logo=geart&logoColor=white)
 Сверстал главную страницу для сайта Типичный верстальщик, без премудростей, только классическая верстка по **методологии БЭМ**.
 
 # :gear: Технологии:
