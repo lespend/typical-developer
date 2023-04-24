@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/lespend/typical-developer/master/image/MOSHED-2018-1-21-0-12-6.gif.pagespeed.ce.GJ0ouzzXGb.gif" alt="Логотип сайта">
 </p>
+
 ___
 ![Shield](https://img.shields.io/badge/landing-page-grayf?style=for-the-badge&logo=geart&logoColor=white)
 # :computer: Типичный верстальщик. О проекте:
