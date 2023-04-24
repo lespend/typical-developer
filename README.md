@@ -4,7 +4,7 @@
 
 ___
 ![Shield](https://img.shields.io/badge/landing-page-grayf?style=for-the-badge&logo=geart&logoColor=white)
-[![Shield](https://img.shields.io/badge/Ссылка%20на%20сайт-red?style=for-the-badge)](https://lespend.github.io/typical-developer/)
+[![Shield](https://img.shields.io/badge/Ссылка%20на%20сайт-f?style=for-the-badge)](https://lespend.github.io/typical-developer/)
 # :computer: Типичный верстальщик. О проекте:
 Сверстал главную страницу для сайта Типичный верстальщик, без премудростей, только классическая верстка по **методологии БЭМ**.
 
